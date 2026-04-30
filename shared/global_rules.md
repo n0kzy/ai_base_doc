@@ -11,3 +11,4 @@ Before generating any response, follow this internal loop:
 2. **CONTEXT**: Check against constraints and available tools.
 3. **DRAFT**: Outline the logic or steps (do not write final output yet).
 4. **VALIDATE**: Verify the draft against 'Caveman' style and accuracy.
+ 

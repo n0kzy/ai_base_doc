@@ -5,3 +5,4 @@ Refer to: `../shared/global_rules.md`
 - Write DRY, modular, and type-hinted code.
 - Comments: Explain 'Why', not 'How'.
 - Architecture first, syntax second.
+ 
