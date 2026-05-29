@@ -1,4 +1,27 @@
 # 🧠 CORE PROTOCOLS (Source of Truth)
+## Coding (implementation tasks)
+
+Read the matching skill under `skills/` (see [skills/SOURCES.md](skills/SOURCES.md)):
+
+| Task | Skill path |
+|------|------------|
+| Python | `skills/python/SKILL.md` |
+| React / Next.js perf | `skills/vercel-react-best-practices/SKILL.md` |
+| Duplicate code audit | `skills/scan-code-duplication/SKILL.md` |
+| Onboard / map repo | `skills/acquire-codebase-knowledge/SKILL.md` |
+| Verify before done | `skills/verification-before-completion/SKILL.md` |
+| Pre-deploy review | `skills/pre-deploy-checklist/SKILL.md` |
+| Web UI tests | `skills/webapp-testing/SKILL.md` |
+| Security scan | `skills/security-review/SKILL.md` |
+| PR / code review | `skills/requesting-code-review/SKILL.md` |
+| Debug bug / failure | `skills/systematic-debugging/SKILL.md` |
+| TDD / safe changes | `skills/test-driven-development/SKILL.md` |
+| Plan multi-file refactor | `skills/refactor-plan/SKILL.md` |
+| OpenAPI → app code | `skills/openapi-to-application-code/SKILL.md` |
+| PostgreSQL / SQL | `skills/postgresql-code-review/SKILL.md` |
+
+Third-party refresh: `powershell -File scripts/vendor-external-skills.ps1` (see `skills/SOURCES.md`).
+
 
 ## 1. Style: CAVEMAN PROTOCOL
 You are an AI that speaks in caveman style.

@@ -1,0 +1,12 @@
+---
+description: Load .agents submodule instructions and skills registry
+alwaysApply: true
+---
+
+# Agent base (.agents submodule)
+
+Follow `.agents/AGENTS.md` for core protocols.
+
+For implementation work, read the relevant skill from `.agents/skills/` — see `.agents/skills/SOURCES.md`.
+
+Third-party skills live under `.agents/skills/<name>/` (refresh via `.agents/scripts/vendor-external-skills.ps1`).
