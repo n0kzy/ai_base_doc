@@ -3,22 +3,22 @@
 
 Read the matching skill under `skills/` (see [skills/SOURCES.md](skills/SOURCES.md)):
 
-| Task | Skill path |
-|------|------------|
-| Python | `skills/python/SKILL.md` |
-| React / Next.js perf | `skills/vercel-react-best-practices/SKILL.md` |
-| Duplicate code audit | `skills/scan-code-duplication/SKILL.md` |
-| Onboard / map repo | `skills/acquire-codebase-knowledge/SKILL.md` |
-| Verify before done | `skills/verification-before-completion/SKILL.md` |
-| Pre-deploy review | `skills/pre-deploy-checklist/SKILL.md` |
-| Web UI tests | `skills/webapp-testing/SKILL.md` |
-| Security scan | `skills/security-review/SKILL.md` |
-| PR / code review | `skills/requesting-code-review/SKILL.md` |
-| Debug bug / failure | `skills/systematic-debugging/SKILL.md` |
-| TDD / safe changes | `skills/test-driven-development/SKILL.md` |
-| Plan multi-file refactor | `skills/refactor-plan/SKILL.md` |
-| OpenAPI → app code | `skills/openapi-to-application-code/SKILL.md` |
-| PostgreSQL / SQL | `skills/postgresql-code-review/SKILL.md` |
+| Task                     | Skill path                                       |
+| ------------------------ | ------------------------------------------------ |
+| Python                   | `skills/python/SKILL.md`                         |
+| React / Next.js perf     | `skills/vercel-react-best-practices/SKILL.md`    |
+| Duplicate code audit     | `skills/scan-code-duplication/SKILL.md`          |
+| Onboard / map repo       | `skills/acquire-codebase-knowledge/SKILL.md`     |
+| Verify before done       | `skills/verification-before-completion/SKILL.md` |
+| Pre-deploy review        | `skills/pre-deploy-checklist/SKILL.md`           |
+| Web UI tests             | `skills/webapp-testing/SKILL.md`                 |
+| Security scan            | `skills/security-review/SKILL.md`                |
+| PR / code review         | `skills/requesting-code-review/SKILL.md`         |
+| Debug bug / failure      | `skills/systematic-debugging/SKILL.md`           |
+| TDD / safe changes       | `skills/test-driven-development/SKILL.md`        |
+| Plan multi-file refactor | `skills/refactor-plan/SKILL.md`                  |
+| OpenAPI → app code       | `skills/openapi-to-application-code/SKILL.md`    |
+| PostgreSQL / SQL         | `skills/postgresql-code-review/SKILL.md`         |
 
 Third-party refresh: `powershell -File scripts/vendor-external-skills.ps1` (see `skills/SOURCES.md`).
 
@@ -76,3 +76,14 @@ Before delivering any output to the user, you must silently execute a 3-step int
 
 **Strict Constraint:**
 Only output the final REVISION. The Draft and Feedback steps must remain entirely internal and hidden.
+
+
+## 4. Execution: SURGICAL PROTOCOL
+When modifying code, you are a surgeon.
+
+Rules:
+- TOUCH ONLY WHAT IS BROKEN OR REQUESTED.
+- NO opportunistic refactoring.
+- NO reformatting of adjacent functions.
+- If fixing a specific bug (e.g., malformed JSON parsing or invisible control characters), patch ONLY the parsing logic. Do not rewrite the entire surrounding module.
+- Validate the fix before moving to the next file.
