@@ -11,6 +11,9 @@ Re-install third-party skills: `powershell -File scripts/vendor-external-skills.
 | Python | [python/](python/) | Your rules in `reference.md` |
 | Duplication scan | [scan-code-duplication/](scan-code-duplication/) | Local script |
 | React / Next.js perf | [vercel-react-best-practices/](vercel-react-best-practices/) | Vercel-style rule bundle |
+| FastAPI & SQLAlchemy | [fastapi-sqlalchemy-standards/](fastapi-sqlalchemy-standards/) | Project ORM and DI conventions |
+| Docker Containers | [docker-container-standards/](docker-container-standards/) | Security & configuration conventions |
+| Modern Python Typing | [python-modern-typing/](python-modern-typing/) | Strict PEP-compliant annotations |
 
 ## Third-party (in `skills/<name>/`)
 
