@@ -5,6 +5,9 @@ Read the matching skill under `skills/` (see [skills/SOURCES.md](skills/SOURCES.
 
 | Task                     | Skill path                                       |
 | ------------------------ | ------------------------------------------------ |
+| Java code                | `skills/java-best-practices/SKILL.md`            |
+| Gradle build             | `skills/gradle-build/SKILL.md`                   |
+| Hytale modding           | `skills/hytale-modding/SKILL.md`                 |
 | Python                   | `skills/python/SKILL.md`                         |
 | React / Next.js perf     | `skills/vercel-react-best-practices/SKILL.md`    |
 | Duplicate code audit     | `skills/scan-code-duplication/SKILL.md`          |

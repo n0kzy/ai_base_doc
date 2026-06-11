@@ -8,6 +8,9 @@ Re-install third-party skills: `powershell -File scripts/vendor-external-skills.
 
 | Skill | Folder | Notes |
 |-------|--------|--------|
+| Java best practices | [java-best-practices/](java-best-practices/) | Modern Java 17+/25 standards |
+| Gradle build | [gradle-build/](gradle-build/) | Kotlin DSL, dependency management |
+| Hytale modding | [hytale-modding/](hytale-modding/) | ECS, CommandBuffer, Interactions, Assets |
 | Python | [python/](python/) | Your rules in `reference.md` |
 | Duplication scan | [scan-code-duplication/](scan-code-duplication/) | Local script |
 | React / Next.js perf | [vercel-react-best-practices/](vercel-react-best-practices/) | Vercel-style rule bundle |
